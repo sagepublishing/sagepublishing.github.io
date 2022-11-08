@@ -1,0 +1,7 @@
+markdown: kramdown
+exclude: ["vendor"]
+baseurl: "/"
+collections:
+  recipes:
+    output: true
+    permalink: :collection/:name:output_ext

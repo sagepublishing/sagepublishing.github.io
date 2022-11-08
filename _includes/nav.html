@@ -1,0 +1,14 @@
+<nav id="nav" class="navigation" role="navigation">
+    <ul>
+        <li{% if page.body_class == 'home' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/">Home</a>
+        </li>
+    </ul>
+    <h2 class="gamma">Development Journeys</h2>
+    <ul>
+        <li{% if page.body_class == 'source-control' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/journeys/source-control.html">Source Controle</a>
+        </li>
+    </ul>
+    <a id="close-btn" class="btn" href="#top"><span aria-hidden>✖</span><span class="sr-only">Close menu</span></a>
+</nav>
