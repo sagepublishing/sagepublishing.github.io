@@ -4,7 +4,7 @@ title: Welcome
 body_class: home
 ---
 
-### Welcome to the SAGE Development Standards handbook
+### Welcome to the SAGE Technology Development Standards handbook
 
 This website documents the standards we expect of all internal and external teams working on development projects at SAGE.
 
