@@ -8,7 +8,7 @@ body_class: home
 
 This website documents the standards we expect of all internal and external teams working on development projects at SAGE.
 
-The standards are tech-agnositc and apply to all projects which are deployed into a production, customer-facing environment. 
+The standards are tech-agnostic and apply to all projects which are deployed into a production, customer-facing environment. 
 
 Standards are divided into a number of journeys, detailed in the menu on the right hand side. Each journey has a number of steps which should be followed in order. Be sure your project complies with the steps in order, some later steps rely on earlier ones. 
 
