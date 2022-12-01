@@ -4,11 +4,23 @@
             <a href="{{ site.baseurl }}/">Home</a>
         </li>
     </ul>
-    <h2 class="gamma">Development Journeys</h2>
-    <ul>
+    <h2 class="gamma">Journeys</h2>
+    <ol>
         <li{% if page.body_class == 'source-control' %} class="active"{% endif %}>
-            <a href="{{ site.baseurl }}/journeys/source-control.html">Source Controle</a>
+            <a href="{{ site.baseurl }}/journeys/source-control.html">Source Control</a>
         </li>
-    </ul>
+        <li{% if page.body_class == 'source-control' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/journeys/">Security</a>
+        </li>
+        <li{% if page.body_class == 'source-control' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/journeys/">Code Review</a>
+        </li>
+        <li{% if page.body_class == 'source-control' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/journeys/">Continuous Integration</a>
+        </li>
+        <li{% if page.body_class == 'source-control' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/journeys/">Observability</a>
+        </li>
+    </ol>
     <a id="close-btn" class="btn" href="#top"><span aria-hidden>✖</span><span class="sr-only">Close menu</span></a>
 </nav>
