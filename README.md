@@ -25,3 +25,7 @@ merged:
 For whole new journeys, or fundamental changes to existing journeys, consider raising an [issue](/issue) first for 
 discussion, before raising a pull request.
 
+# Local development
+
+You can build and run the site locally using Docker on *nix systems via the script `./start-dev.sh`. Windows users, you
+are most welcome to submit a PR with an equivalent script ;-)
