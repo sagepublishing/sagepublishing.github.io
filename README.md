@@ -13,13 +13,13 @@ Each push to the main branch triggers a build of the site, made available public
 Anyone at SAGE can create a branch of this repo and submit a pull request. Changes will be reviewed by members 
 of the SAGE Tech Advisory Board and considered for inclusion in the guide. 
 
-Pull requests must receive at least one approval from the following Tech Advisory Board users before they can be 
+Pull requests must receive at least one approval from the following Tech Advisory Board members before they can be 
 merged:
 
-* [andyleanlibrary](https://github.com/andyleanlibrary)
-* [foomatty](https://github.com/foomatty)
-* [junglebarry](https://github.com/foomatty)
-* [msisolak](https://github.com/msisolak)
+* [Andy Hails](https://github.com/andyleanlibrary)
+* [David Brooks](https://github.com/junglebarry)
+* [Matt Moran](https://github.com/foomatty)
+* [Michael Sisolak](https://github.com/msisolak)
 
 ## Major changes
 
@@ -28,5 +28,5 @@ discussion, before raising a pull request.
 
 # Local development
 
-You can build and run the site locally using Docker on *nix systems via the script `./start-dev.sh`. Windows users, you
-are most welcome to submit a PR with an equivalent script ;-)
+You can build and run the site locally using Docker on *nix systems via the script `./start-dev.sh`. Windows users, 
+you are most welcome to submit a PR with an equivalent script. ;-)
