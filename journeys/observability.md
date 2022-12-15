@@ -55,9 +55,11 @@ Note that GDPR law in the UK & EU now considers a user's [IP address or cookie a
 
 ###Step 5.5 Implement key healthcheck metrics on parts of your infrastructure, implement alerts 
 
-Every solution must expose at least one service healthcheck endpoint which can be accessed by third parties to determine whether or not the solution is currently healthy. The definition of healthy is that the solution can currently accept and successfully process user requests.
+Every solution must expose at least one service healthcheck endpoint which can be accessed by third party monitors to determine whether or not the solution is currently healthy. The definition of healthy is that the solution can currently accept and successfully process user requests.
 
 At a minimum, it is recommended that healthchecks cover connections to essential attached storage, databases and APIs that are required for basic operation.
+
+Healthchecks should not reveal implementation information or detail, and should return a simple `OK` style response to indicate good health.
 
 Healthchecks should be integrated with third party monitoring services such as PagerDuty or AWS Cloudwatch alerts, which can notify the operations team when the solution is unhealthy.
 
