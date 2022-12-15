@@ -127,6 +127,6 @@ Azure ...
 
 The safest environments are those that provide no access for modification once running, and can only be modified by a peer-reviewed change controlled process.
 
-Resources provisioned in this way are considered ephemeral, when changes are required they are disposed of and replaced with new resources.
+Resources provisioned in this way are considered ephemeral, when changes are required they are disposed of and replaced with new resources with the required modifications.
 
 For server-based environments, consider solutions based on container technologies where container images are build using a peer-reviewed pipeline process, and can be quickly deposed of and redeployed when a new image is available.
