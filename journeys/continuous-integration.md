@@ -27,17 +27,16 @@ Try and avoid self-install options such as Jenkins, as these require additional 
 
 ###Step 4.2: Implement the smallest possible build, and have it report a pass (green)/fail status.  
 
-How your team operates with source control (and other development practices) will be set by the policies and strategies you will choose later on in this guide. To ensure these choices are clear to developers, both existing and new, you will document these choices in a README file in the root folder of the project’s repository. 
+Using your chosen CI platform, implement the smallest possible build pipeline (for example a compile) and have the success or failure of that pipeline produce a pass or fail build status.
 
-Documenting development practices cuts down on ambiguity and interpretation. By placing this documentation in the repository, it is versioned along with the code and also benefits for a change history over time as practices evolve. Team members can also pull request the README to gather feedback and consensus on changes to project practices. 
-
+It should be possible for any branch in your project to be built using this process.
  
 
 ###Step 4.3: Your main branch should always have a green CI build, make noise when it is not green 
 
-The `main` branch is sacred and should be always in a releasable state, so requires a green build status.
+The `main` branch is sacred and should be always in a releasable state, so perpetually requires a green build status.
 
-If for any reason the `main` branch becomes broken, it is the immediate responsibility of the individual who last merged to it to fix it. For this reason we strongly recommend merges to `main` are not done right at the end of the day, or before a holiday or other absence, as you must be in a position to wait for a passing build.
+If for any reason the `main` branch becomes broken, it is the immediate responsibility of the individual who last merged to it, to fix it. For this reason we strongly recommend merges to `main` are not done right at the end of the day, or before a holiday or other absence, as you must be in a position to wait for a passing build.
 
 The failure of a `main` branch build should also be noisy, the whole development team should receive notifications via IM, email or both as to its broken status.
  
@@ -62,7 +61,9 @@ If your project does not have an automated test suite, start one and make sure e
 
 
 ###Step 4.6 Branches subject to final pull request should have green build status
- 
+
+It is not acceptable to request final pre-merge review of code that does not have a passing build status. Before rasing a PR, run the build pipeline on your branch to make sure it has green status.
+
 
 ###Step 4.7: Run the CI build on every commit 
 
