@@ -12,7 +12,7 @@ This guide documents the accepted and peer reviewed practices for developing sec
 
 The steps in this guide are organised and designed to be implemented in sequence, so be sure to complete each step before skipping ahead. If you are working with an established project, you may have already completed later steps where earlier ones are missing. If so, go back to the start of the journey and implement the gaps in sequence. 
 
-<hr> 
+--- 
 
 ### Step 2.1: Audit existing code and remove any credentials checked into source control, provide a secure mechanism for delivery of credentials 
 
