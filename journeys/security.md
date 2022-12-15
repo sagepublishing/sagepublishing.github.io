@@ -110,8 +110,7 @@ continuously.
 
 *Recommended technologies: [OWASP Academy](https://owasp-academy.teachable.com/)*
 
-When developers are on-boarded to the business, they should receive basic training on common code exploits relevant to
-the type of development domain they are undertaking (in the case of SAGE, this is usually web).
+When developers are on-boarded to the business, they should receive basic training on common code exploits relevant to the type of development domain they are undertaking (in the case of SAGE, this is usually web).
 
 OWASP provide a free academy program for this purpose.
  
@@ -120,12 +119,9 @@ OWASP provide a free academy program for this purpose.
 
 *Recommended technologies: AWS Secrets Manager, Azure ...*
 
-Application secrets such as API or database credentials and SSH keys should be regularly rotated, preferably 
-automatically.
+Application secrets such as API or database credentials and SSH keys should be regularly rotated, preferably automatically.
 
-Technologies such as AWS Secrets Manager allow you to perform secret rotation for AWS managed resources automatically,
-and provide code hooks to implement Lambda functions to rotate non-PaaS resources. This method is preferred to the 
-manual method of secret rotation. 
+Technologies such as AWS Secrets Manager allow you to perform secret rotation for AWS managed resources automatically, and provide code hooks to implement Lambda functions to rotate non-PaaS resources. This method is preferred to the manual method of secret rotation. 
  
 
 ### Step 2.10 Engage a third party to perform black- and white-box vulnerability testing 
