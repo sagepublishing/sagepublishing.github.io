@@ -34,7 +34,9 @@ A [fantastic guide](https://google.github.io/eng-practices/review/) for how to c
 
 Coding standards and style vary wildly depending on the project's technology, framework or libraries used. 
 
-However each project's standards should be explicit and included in the project's `README.md`. These documented standards then become the minium criteria used by PR reviewers when deciding to approve or reject changes.
+It is recommended that projects draw from the large and available bodies of existing work on topics like code style, and don't invent their own. Examples include (but are not limited to) the [Google Java Style](https://google.github.io/styleguide/javaguide.html) guide  or the [Airbnb Javascript Style](https://github.com/airbnb/javascript) guide. Linting technologies can be used to automatically enforce these styles (and should be added as a CI pipeline step).
+
+Each project's standards should be explicit and included in the project's `README.md`. These documented standards then become the minium criteria used by PR reviewers when deciding to approve or reject changes.
 
  
 
@@ -51,7 +53,7 @@ However, YMMV depending on your team geography and technology. You should make a
 
 ### Step 3.4: Implement code metrics into the review process, as appropriate for your project 
 
-
+If you operate a policy of minimum test coverage
  
 
 ### Step 3.5: Implement 30% and 90% feedback for larger or more fundamental changes 
